@@ -1,0 +1,10 @@
+git show: Shows info about a specific commit,changes, author, commit message.
+
+git log: Displays a history of commits in the repository, including commit hashes, authors, dates, and commit messages.
+
+git checkout: Switches branches or restores files from the staging area or a specific commit.
+
+git init: Initializes a new Git repository in the current directory.
+
+git reset: Resets the current branch to a specific commit, optionally discarding changes in the working directory.
+
