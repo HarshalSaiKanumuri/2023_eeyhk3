@@ -18,13 +18,13 @@ events:
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
-      Build flags: 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 14/02/2024 20:08:46.
+      Build started 15/02/2024 14:28:52.
       
       Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.73
+      Time Elapsed 00:00:00.57
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -73,13 +73,13 @@ events:
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
-      Build flags: 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 14/02/2024 20:08:47.
+      Build started 15/02/2024 14:28:53.
       
       Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.58
+      Time Elapsed 00:00:00.55
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-vo6jad"
-      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-vo6jad"
+      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-d06ple"
+      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-d06ple"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-vo6jad'
+        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-d06ple'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c980.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe4f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 14/02/2024 20:08:47.
+        Build started 15/02/2024 14:28:54.
         
-        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vo6jad\\cmTC_5c980.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d06ple\\cmTC_fe4f6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5c980.dir\\Debug\\".
+          Creating directory "cmTC_fe4f6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vo6jad\\Debug\\".
-          Creating directory "cmTC_5c980.dir\\Debug\\cmTC_5c980.tlog\\".
+          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d06ple\\Debug\\".
+          Creating directory "cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5c980.dir\\Debug\\cmTC_5c980.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5c980.dir\\Debug\\cmTC_5c980.tlog\\unsuccessfulbuild".
+          Creating "cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c980.dir\\Debug\\\\" /Fd"cmTC_5c980.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe4f6.dir\\Debug\\\\" /Fd"cmTC_fe4f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c980.dir\\Debug\\\\" /Fd"cmTC_5c980.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe4f6.dir\\Debug\\\\" /Fd"cmTC_fe4f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vo6jad\\Debug\\cmTC_5c980.exe" /INCREMENTAL /ILK:"cmTC_5c980.dir\\Debug\\cmTC_5c980.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-vo6jad/Debug/cmTC_5c980.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-vo6jad/Debug/cmTC_5c980.lib" /MACHINE:X64  /machine:x64 cmTC_5c980.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_5c980.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vo6jad\\Debug\\cmTC_5c980.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d06ple\\Debug\\cmTC_fe4f6.exe" /INCREMENTAL /ILK:"cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-d06ple/Debug/cmTC_fe4f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-d06ple/Debug/cmTC_fe4f6.lib" /MACHINE:X64  /machine:x64 cmTC_fe4f6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fe4f6.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d06ple\\Debug\\cmTC_fe4f6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5c980.dir\\Debug\\cmTC_5c980.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5c980.dir\\Debug\\cmTC_5c980.tlog\\cmTC_5c980.lastbuildstate".
-        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vo6jad\\cmTC_5c980.vcxproj" (default targets).
+          Deleting file "cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fe4f6.dir\\Debug\\cmTC_fe4f6.tlog\\cmTC_fe4f6.lastbuildstate".
+        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d06ple\\cmTC_fe4f6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.54
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-552zkf"
-      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-552zkf"
+      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-pi6d86"
+      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-pi6d86"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -220,40 +220,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-552zkf'
+        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-pi6d86'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_56892.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_512a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 14/02/2024 20:08:48.
+        Build started 15/02/2024 14:28:55.
         
-        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552zkf\\cmTC_56892.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi6d86\\cmTC_512a3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_56892.dir\\Debug\\".
+          Creating directory "cmTC_512a3.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552zkf\\Debug\\".
-          Creating directory "cmTC_56892.dir\\Debug\\cmTC_56892.tlog\\".
+          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi6d86\\Debug\\".
+          Creating directory "cmTC_512a3.dir\\Debug\\cmTC_512a3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_56892.dir\\Debug\\cmTC_56892.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_56892.dir\\Debug\\cmTC_56892.tlog\\unsuccessfulbuild".
+          Creating "cmTC_512a3.dir\\Debug\\cmTC_512a3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_512a3.dir\\Debug\\cmTC_512a3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56892.dir\\Debug\\\\" /Fd"cmTC_56892.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_512a3.dir\\Debug\\\\" /Fd"cmTC_512a3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56892.dir\\Debug\\\\" /Fd"cmTC_56892.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_512a3.dir\\Debug\\\\" /Fd"cmTC_512a3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552zkf\\Debug\\cmTC_56892.exe" /INCREMENTAL /ILK:"cmTC_56892.dir\\Debug\\cmTC_56892.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-552zkf/Debug/cmTC_56892.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-552zkf/Debug/cmTC_56892.lib" /MACHINE:X64  /machine:x64 cmTC_56892.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_56892.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552zkf\\Debug\\cmTC_56892.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi6d86\\Debug\\cmTC_512a3.exe" /INCREMENTAL /ILK:"cmTC_512a3.dir\\Debug\\cmTC_512a3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-pi6d86/Debug/cmTC_512a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-pi6d86/Debug/cmTC_512a3.lib" /MACHINE:X64  /machine:x64 cmTC_512a3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_512a3.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi6d86\\Debug\\cmTC_512a3.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_56892.dir\\Debug\\cmTC_56892.tlog\\unsuccessfulbuild".
-          Touching "cmTC_56892.dir\\Debug\\cmTC_56892.tlog\\cmTC_56892.lastbuildstate".
-        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552zkf\\cmTC_56892.vcxproj" (default targets).
+          Deleting file "cmTC_512a3.dir\\Debug\\cmTC_512a3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_512a3.dir\\Debug\\cmTC_512a3.tlog\\cmTC_512a3.lastbuildstate".
+        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi6d86\\cmTC_512a3.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.51
         
       exitCode: 0
   -
