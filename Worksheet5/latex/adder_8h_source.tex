@@ -1,0 +1,51 @@
+\doxysection{adder.\+h}
+\hypertarget{adder_8h_source}{}\label{adder_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ begin\ ?\ adder\ .\ h\ ????????????}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//\ The\ following\ two\ lines\ prevent\ adder\ .\ h\ from\ being\ included}}
+\DoxyCodeLine{00004\ \textcolor{comment}{//\ more\ than\ once\ in\ any\ source\ (\ .\ cpp\ )\ file\ .\ If\ this\ were\ to\ happen}}
+\DoxyCodeLine{00005\ \textcolor{comment}{//\ it\ would\ cause\ problems\ in\ the\ compile\ process\ but\ it\ is\ difficult\ to}}
+\DoxyCodeLine{00006\ \textcolor{comment}{//\ prevent\ manually\ in\ large\ projects\ .\ These\ \#ifndef\ ,\ \#define\ and\ \#endif}}
+\DoxyCodeLine{00007\ \textcolor{comment}{//\ commands\ for\ an\ "{}\ include\ guard"{}\ and\ are\ types\ of\ compiler\ directive\ .}}
+\DoxyCodeLine{00008\ \textcolor{comment}{//\ The\ include\ guard\ contains\ an\ ID\ for\ this\ file\ "{}MATHSLIB\_ADDER\_H"{}\ ,\ this\ is}}
+\DoxyCodeLine{00009\ \textcolor{comment}{//\ arbitrary\ but\ must\ be\ unique\ within\ the\ project\ .}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ MATHSLIB\_ADDER\_H}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ MATHSLIB\_ADDER\_H}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{comment}{//\ We\ need\ to\ prefix\ our\ function\ names\ with\ an\ additional}}
+\DoxyCodeLine{00014\ \textcolor{comment}{//\ keyword\ which\ is\ different\ depending\ on\ the\ operating}}
+\DoxyCodeLine{00015\ \textcolor{comment}{//\ system\ we\ are\ using\ ,\ and\ whether\ we\ are\ using\ or\ creating\ the}}
+\DoxyCodeLine{00016\ \textcolor{comment}{//\ library\ .}}
+\DoxyCodeLine{00017\ \textcolor{comment}{//\ The\ variables\ "{}maths\_EXPORTS"{}\ must\ be\ defined\ at\ build\ time\ if}}
+\DoxyCodeLine{00018\ \textcolor{comment}{//\ we\ are\ building\ the\ library\ ,\ but\ not\ if\ we\ are\ using\ it\ .}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#if\ defined(WIN32)\ ||\ defined(\_WIN32)}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#if\ defined(maths\_STATIC)}}
+\DoxyCodeLine{00021\ \textcolor{comment}{//\ don't\ add\ any\ keywords\ if\ building\ a\ static\ library}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ MATHSLIB\_API}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#if\ defined(maths\_EXPORTS)}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#define\ MATHSLIB\_API\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#define\ MATHSLIB\_API\ \_\_declspec(dllimport)}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00031\ \textcolor{comment}{//\ MATHSLIB\_API\ is\ defined\ as\ nothing\ if\ we're\ not\ on\ Windows}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#define\ MATHSLIB\_API}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{comment}{//\ The\ above\ will\ include\ one\ of\ :}}
+\DoxyCodeLine{00036\ \textcolor{comment}{//\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{00037\ \textcolor{comment}{//\ \_\_declspec(dllimport)}}
+\DoxyCodeLine{00038\ \textcolor{comment}{//\ before\ declarations\ .\ This\ is\ a\ Microsoft\ specific}}
+\DoxyCodeLine{00039\ \textcolor{comment}{//\ extension\ to\ C/C++}}
+\DoxyCodeLine{00040\ \textcolor{comment}{//}}
+\DoxyCodeLine{00041\ \textcolor{comment}{//\ prototype\ for\ the\ function\ including\ additional\ keyword}}
+\DoxyCodeLine{00042\ MATHSLIB\_API\ \textcolor{keywordtype}{int}\ add(\textcolor{keywordtype}{int}\ a,\ \textcolor{keywordtype}{int}\ b);}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{comment}{//\ end\ ?\ adder\ .\ h\ ????????????}}
+\DoxyCodeLine{00046\ }
+
+\end{DoxyCode}
