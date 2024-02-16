@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Doxy stuff
+*.html
+*.tex
