@@ -1,0 +1,12 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleMy GitHub Pages Sitetitle
+head
+body
+    h1Welcome to My GitHub Pages Site!h1
+    pThis is a simple index.html file hosted on GitHub Pages.p
+body
+html
