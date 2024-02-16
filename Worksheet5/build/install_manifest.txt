@@ -1,0 +1,2 @@
+C:/Users/Harsh/2023_eeyhk3/Worksheet5/build/_CPack_Packages/win64/NSIS/Project-0.1.1-win64/bin/calc.exe
+C:/Users/Harsh/2023_eeyhk3/Worksheet5/build/_CPack_Packages/win64/NSIS/Project-0.1.1-win64/lib/static/maths.lib

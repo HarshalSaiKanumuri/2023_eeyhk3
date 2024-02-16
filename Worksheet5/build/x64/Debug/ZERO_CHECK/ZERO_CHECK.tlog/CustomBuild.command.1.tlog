@@ -1,0 +1,10 @@
+^C:\USERS\HARSH\2023_EEYHK3\WORKSHEET5\BUILD\CMAKEFILES\41C46E4B9EE429F5F6E342DD7EA79156\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Harsh/2023_eeyhk3/Worksheet5 -BC:/Users/Harsh/2023_eeyhk3/Worksheet5/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Harsh/2023_eeyhk3/Worksheet5/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

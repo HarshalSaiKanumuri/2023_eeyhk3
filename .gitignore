@@ -34,3 +34,6 @@
 # Doxy stuff
 *.html
 *.tex
+
+# No Visual Studio
+*.vs
