@@ -1,0 +1,10 @@
+^C:\USERS\HARSH\2023_EEYHK3\WORKSHEET4_REDO\BUILD\CMAKEFILES\8B245ECEF398A3744CBE12F92BB482F8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Harsh/2023_eeyhk3/Worksheet4_redo -BC:/Users/Harsh/2023_eeyhk3/Worksheet4_redo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Harsh/2023_eeyhk3/Worksheet4_redo/build/hello.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
