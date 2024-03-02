@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-acac58b96baeaf34d551.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QT_first_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QT_first_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT_first_project-Debug-4e16dc489493e22b4a82.json",
+					"name" : "QT_first_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QT_first_project_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT_first_project_autogen-Debug-7f38584995dadbcf6177.json",
+					"name" : "QT_first_project_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QT_first_project_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT_first_project_autogen_timestamp_deps-Debug-9795abf1e28f580e2f3b.json",
+					"name" : "QT_first_project_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug",
+		"source" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

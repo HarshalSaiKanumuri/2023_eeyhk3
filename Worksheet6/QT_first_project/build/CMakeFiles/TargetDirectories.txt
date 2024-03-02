@@ -1,0 +1,4 @@
+C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/QT_first_project.dir
+C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/INSTALL.dir
+C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/ZERO_CHECK.dir
