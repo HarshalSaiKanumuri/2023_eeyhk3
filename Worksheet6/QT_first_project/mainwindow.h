@@ -17,6 +17,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    // Example of slot definition in mainwindow.h
+    // Add this to the MainWindow class definition
+public slots:
+    void handleButton();
+
 private:
     Ui::MainWindow *ui;
 };
