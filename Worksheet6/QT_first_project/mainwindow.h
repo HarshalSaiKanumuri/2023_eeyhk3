@@ -22,6 +22,11 @@ public:
 public slots:
     void handleButton();
 
+    // Example of signal definition in mainwindow.h
+    // This needs adding to the MainWindow class definition
+signals:
+    void statusUpdateMessage(const QString &message, int timeout);
+
 private:
     Ui::MainWindow *ui;
 };
