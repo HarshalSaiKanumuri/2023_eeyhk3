@@ -25,6 +25,7 @@ public:
 public slots:
     void handleButton();
     void handleTreeClicked();
+    void on_actionOpen_File_triggered();
 
     // Example of signal definition in mainwindow.h
     // This needs adding to the MainWindow class definition

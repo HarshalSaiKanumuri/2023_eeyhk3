@@ -92,3 +92,9 @@ void MainWindow::handleTreeClicked() {
     msgBox.exec();
 
 }
+
+// Slot function added to MainWindow.cpp
+void MainWindow::on_actionOpen_File_triggered() {
+    // Add this line of code so you can see if the action is working
+    emit statusUpdateMessage(QString("Open File action triggered"), 0);
+}
