@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "TreeModel/ModelPart.h"      // Include the header file  ModelPart
+#include "TreeModel/ModelPartList.h"  // Include the  file for ModelPartList
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -29,5 +32,6 @@ signals:
 
 private:
     Ui::MainWindow *ui;
+    ModelPartList* partList;
 };
 #endif // MAINWINDOW_H

@@ -17,6 +17,11 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        TreeModel/ModelPart.cpp
+        TreeModel/ModelPartList.cpp
+        TreeModel/ModelPart.h
+        TreeModel/ModelPartList.h
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

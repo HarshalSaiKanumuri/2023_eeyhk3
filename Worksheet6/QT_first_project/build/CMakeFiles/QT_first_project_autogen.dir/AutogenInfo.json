@@ -339,6 +339,18 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPart.h",
+			"MU",
+			"FHAIHHBWPN/moc_ModelPart.cpp",
+			null
+		],
+		[
+			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPartList.h",
+			"MU",
+			"FHAIHHBWPN/moc_ModelPartList.cpp",
+			null
+		],
+		[
 			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -489,6 +501,16 @@
 	"SETTINGS_FILE_Release" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/QT_first_project_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPartList.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/main.cpp",
 			"MU",
