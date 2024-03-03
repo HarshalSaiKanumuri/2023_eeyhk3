@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-acac58b96baeaf34d551.json",
+					"jsonFile" : "directory-.-Debug-7478f369e1ea33b53414.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QT_first_project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QT_first_project-Debug-4e16dc489493e22b4a82.json",
+					"jsonFile" : "target-QT_first_project-Debug-f1a01a2960b3e7bfc503.json",
 					"name" : "QT_first_project",
 					"projectIndex" : 0
 				},

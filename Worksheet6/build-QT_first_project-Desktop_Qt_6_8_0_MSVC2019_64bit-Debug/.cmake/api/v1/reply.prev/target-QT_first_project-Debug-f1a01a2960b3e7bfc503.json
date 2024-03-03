@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -368,7 +368,11 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				6,
+				10,
+				16
 			]
 		}
 	],
@@ -486,7 +490,11 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				6,
+				10,
+				16
 			]
 		},
 		{
@@ -494,7 +502,11 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				7,
+				8,
+				9,
+				13,
+				14
 			]
 		},
 		{
@@ -502,14 +514,17 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				11,
+				12,
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				17,
+				18
 			]
 		}
 	],
@@ -545,9 +560,58 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeModel/ModelPart.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeModel/ModelPartList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeModel/ModelPart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeModel/ModelPartList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "optiondialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "optiondialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "optiondialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/include/ui_optiondialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -558,8 +622,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/EWIEGA46WW/qrc_icons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/EWIEGA46WW/qrc_icons.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

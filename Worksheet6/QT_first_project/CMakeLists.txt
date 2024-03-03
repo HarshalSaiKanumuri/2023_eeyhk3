@@ -28,6 +28,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(QT_first_project
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        optiondialog.h optiondialog.cpp optiondialog.ui
+        icons.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QT_first_project APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
