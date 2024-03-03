@@ -24,6 +24,7 @@ public:
     // Add this to the MainWindow class definition
 public slots:
     void handleButton();
+    void handleTreeClicked();
 
     // Example of signal definition in mainwindow.h
     // This needs adding to the MainWindow class definition

@@ -51,6 +51,11 @@ MainWindow::MainWindow(QWidget *parent)
         }
     }
 
+    // Connect the clicked() signal of when user clicks on the Tree Viewer
+    connect(ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked);  // edit for ex5 4.3.2
+
+
+
 }
 
 MainWindow::~MainWindow()
@@ -66,4 +71,24 @@ void MainWindow::handleButton() {
     QMessageBox msgBox;
     msgBox.setText("Add button was clicked");
     msgBox.exec();
+}
+
+void MainWindow::handleTreeClicked() {
+
+    // Get the index of the selected item
+    QModelIndex index = ui->treeView->currentIndex();
+
+    // Get a pointer to the item from the index
+    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // In this case, we will retrieve the name string from the internal QVariant data array
+    QString text = selectedPart->data(0).toString();
+
+    // Emit a status update message
+    emit statusUpdateMessage(QString("The selected item is: ") + text, 0);
+
+    QMessageBox msgBox;
+    msgBox.setText("The selected item is: " + text);
+    msgBox.exec();
+
 }
