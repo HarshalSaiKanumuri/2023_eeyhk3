@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 03/03/2024 17:31:13.
+      Build started 03/03/2024 22:36:38.
       
       Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.77
+      Time Elapsed 00:00:00.82
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-nxl365"
-      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-nxl365"
+      source: "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-wv6vd4"
+      binary: "C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-wv6vd4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -81,40 +81,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-nxl365'
+        Change Dir: 'C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-wv6vd4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d9da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0e7ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 03/03/2024 17:31:14.
+        Build started 03/03/2024 22:36:40.
         
-        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl365\\cmTC_6d9da.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wv6vd4\\cmTC_0e7ea.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6d9da.dir\\Debug\\".
+          Creating directory "cmTC_0e7ea.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl365\\Debug\\".
-          Creating directory "cmTC_6d9da.dir\\Debug\\cmTC_6d9da.tlog\\".
+          Creating directory "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wv6vd4\\Debug\\".
+          Creating directory "cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6d9da.dir\\Debug\\cmTC_6d9da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6d9da.dir\\Debug\\cmTC_6d9da.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d9da.dir\\Debug\\\\" /Fd"cmTC_6d9da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0e7ea.dir\\Debug\\\\" /Fd"cmTC_0e7ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d9da.dir\\Debug\\\\" /Fd"cmTC_6d9da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0e7ea.dir\\Debug\\\\" /Fd"cmTC_0e7ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl365\\Debug\\cmTC_6d9da.exe" /INCREMENTAL /ILK:"cmTC_6d9da.dir\\Debug\\cmTC_6d9da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-nxl365/Debug/cmTC_6d9da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-nxl365/Debug/cmTC_6d9da.lib" /MACHINE:X64  /machine:x64 cmTC_6d9da.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6d9da.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl365\\Debug\\cmTC_6d9da.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wv6vd4\\Debug\\cmTC_0e7ea.exe" /INCREMENTAL /ILK:"cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-wv6vd4/Debug/cmTC_0e7ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/build/CMakeFiles/CMakeScratch/TryCompile-wv6vd4/Debug/cmTC_0e7ea.lib" /MACHINE:X64  /machine:x64 cmTC_0e7ea.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0e7ea.vcxproj -> C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wv6vd4\\Debug\\cmTC_0e7ea.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_6d9da.dir\\Debug\\cmTC_6d9da.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6d9da.dir\\Debug\\cmTC_6d9da.tlog\\cmTC_6d9da.lastbuildstate".
-        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl365\\cmTC_6d9da.vcxproj" (default targets).
+          Deleting file "cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0e7ea.dir\\Debug\\cmTC_0e7ea.tlog\\cmTC_0e7ea.lastbuildstate".
+        Done Building Project "C:\\Users\\Harsh\\2023_eeyhk3\\Worksheet6\\QT_first_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wv6vd4\\cmTC_0e7ea.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.52
         
       exitCode: 0
   -

@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QMessageBox>
+#include <QFileDialog>
+#include <QString>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -97,4 +99,15 @@ void MainWindow::handleTreeClicked() {
 void MainWindow::on_actionOpen_File_triggered() {
     // Add this line of code so you can see if the action is working
     emit statusUpdateMessage(QString("Open File action triggered"), 0);
+}
+
+void MainWindow::openFile() {
+    QString fileName = QFileDialog::getOpenFileName(
+        nullptr,
+        tr("Open File"),
+        "C:\\",
+        tr("STL Files (*.stl);;Text Files (*.txt)")
+        );
+    emit statusUpdateMessage(QString("Selected file: ") + fileName, 0);
+
 }
