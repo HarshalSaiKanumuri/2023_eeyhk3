@@ -1,0 +1,22 @@
+# ninja log v5
+23	485	7312115866210597	QT_first_project_autogen/timestamp	125588184d27670d
+23	485	7312115866210597	QT_first_project_autogen/mocs_compilation.cpp	125588184d27670d
+23	485	7312115866210597	C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/timestamp	125588184d27670d
+23	485	7312115866210597	C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/mocs_compilation.cpp	125588184d27670d
+486	568	7312115867443257	QT_first_project_autogen/EWIEGA46WW/qrc_icons.cpp	c7ae4969afd1c2a5
+486	568	7312115867443257	C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/EWIEGA46WW/qrc_icons.cpp	c7ae4969afd1c2a5
+604	1395	7312115875772987	CMakeFiles/QT_first_project.dir/QT_first_project_autogen/EWIEGA46WW/qrc_icons.cpp.obj	277563771d0d4bbd
+592	3002	7312115891808139	CMakeFiles/QT_first_project.dir/TreeModel/ModelPartList.cpp.obj	5037e740f6a5ce94
+586	3012	7312115891853177	CMakeFiles/QT_first_project.dir/TreeModel/ModelPart.cpp.obj	2eca99a69713f22
+576	3291	7312115894704964	CMakeFiles/QT_first_project.dir/main.cpp.obj	64a6caa0623f94ba
+569	3340	7312115895200734	CMakeFiles/QT_first_project.dir/QT_first_project_autogen/mocs_compilation.cpp.obj	713226ce3a7f7f96
+598	3406	7312115895869693	CMakeFiles/QT_first_project.dir/optiondialog.cpp.obj	531cd83a7e556400
+581	4039	7312115902187864	CMakeFiles/QT_first_project.dir/mainwindow.cpp.obj	e11cd18054194d80
+4040	4494	7312115906533469	QT_first_project.exe	6f92fdffbc267926
+29	213	7312117990910612	QT_first_project_autogen/timestamp	125588184d27670d
+29	213	7312117990910612	QT_first_project_autogen/mocs_compilation.cpp	125588184d27670d
+29	213	7312117990910612	C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/timestamp	125588184d27670d
+29	213	7312117990910612	C:/Users/Harsh/2023_eeyhk3/Worksheet6/build-QT_first_project-Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/QT_first_project_autogen/mocs_compilation.cpp	125588184d27670d
+228	2196	7312118010697991	CMakeFiles/QT_first_project.dir/optiondialog.cpp.obj	531cd83a7e556400
+223	2614	7312118014878773	CMakeFiles/QT_first_project.dir/mainwindow.cpp.obj	e11cd18054194d80
+2614	2812	7312118016419702	QT_first_project.exe	6f92fdffbc267926

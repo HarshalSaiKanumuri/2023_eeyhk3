@@ -1,8 +1,11 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "optiondialog.h"
+#include "./ui_optiondialog.h"
 #include <QMessageBox>
 #include <QFileDialog>
 #include <QString>
+#include <QDialog>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,6 +21,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Connect the released() signal of the addButton object to the handleAddButton slot in this object
     connect(ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton);
+
+    connect(ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton_editter);
 
     /* Create/allocate the ModelList */
     this->partList = new ModelPartList("Parts List");
@@ -73,6 +78,18 @@ void MainWindow::handleButton() {
     QMessageBox msgBox;
     msgBox.setText("Add button was clicked");
     msgBox.exec();
+}
+
+void MainWindow::handleButton_editter() {
+    // This causes MainWindow to emit the signal that will then be
+    // received by the status bar's slot
+
+    OptionDialog dialog(this);
+    if (dialog.exec() == QDialog::Accepted) {
+        emit statusUpdateMessage(QString("Dialog accepted"), 0);
+    } else {
+        emit statusUpdateMessage(QString("Dialog rejected"), 0);
+    }
 }
 
 void MainWindow::handleTreeClicked() {
