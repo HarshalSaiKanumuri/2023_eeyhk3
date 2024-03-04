@@ -28,6 +28,7 @@ public slots:
     void on_actionOpen_File_triggered();
     void openFile();
     void handleButton_editter();
+    void on_actionItemOptions_triggered();
 
     // Example of signal definition in mainwindow.h
     // This needs adding to the MainWindow class definition
