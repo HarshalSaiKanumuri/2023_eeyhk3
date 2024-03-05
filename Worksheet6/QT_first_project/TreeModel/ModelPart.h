@@ -6,7 +6,7 @@
   *
   *     P Evans 2022
   */
-  
+
 #ifndef VIEWER_MODELPART_H
 #define VIEWER_MODELPART_H
 
@@ -95,7 +95,7 @@ public:
     /** Set colour
       * (0-255 RGB values as ints)
       */
-    void setColour(const unsigned char R, const unsigned char G, const unsigned char B);
+    void setColour(int R,int G,int B);
 
     unsigned char getColourR();
     unsigned char getColourG();
@@ -107,10 +107,10 @@ public:
     void setVisible(bool isVisible);
 
     /** Get visible flag
-      * @return visible flag as boolean 
+      * @return visible flag as boolean
       */
     bool visible();
-	
+
 	/** Load STL file
       * @param fileName
       */
@@ -135,7 +135,11 @@ private:
      * want to add you own.
      */
     bool                                        isVisible;          /**< True/false to indicate if should be visible in model rendering */
-	
+    int m_colorR;
+    int m_colorG;
+    int m_colorB;
+    bool m_visible;
+
 	/* These are vtk properties that will be used to load/render a model of this part,
 	 * commented out for now but will be used later
 	 */
@@ -143,7 +147,7 @@ private:
     //vtkSmartPointer<vtkMapper>                  mapper;             /**< Mapper for rendering */
     //vtkSmartPointer<vtkActor>                   actor;              /**< Actor for rendering */
     //vtkColor3<unsigned char>                    colour;             /**< User defineable colour */
-};  
+};
 
 
 #endif

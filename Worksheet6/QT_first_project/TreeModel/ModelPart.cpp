@@ -94,41 +94,43 @@ int ModelPart::row() const {
         return m_parentItem->m_childItems.indexOf(const_cast<ModelPart*>(this));
     return 0;
 }
-
+/*
 void ModelPart::setColour(const unsigned char R, const unsigned char G, const unsigned char B) {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
+    // Set the RGB color components of the model part
+    m_colorR = R;
+    m_colorG = G;
+    m_colorB = B;
+}
+*/
+
+
+void ModelPart::setColour(int R,int G,int B) {
+    // Set the RGB color components of the model part
+    m_colorR = R;
+    m_colorG = G;
+    m_colorB = B;
 }
 
 unsigned char ModelPart::getColourR() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return 0;   // needs updating
+    // Return the red color component of the model part
+    return m_colorR;
 }
 
 unsigned char ModelPart::getColourG() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return 0;   // needs updating
+    // Return the green color component of the model part
+    return m_colorG;
 }
-
 
 unsigned char ModelPart::getColourB() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return 0;   // needs updating
+    // Return the blue color component of the model part
+    return m_colorB;
 }
-
 
 void ModelPart::setVisible(bool isVisible) {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
+    // Set the visibility status of the model part
+    m_visible = isVisible;
 }
+
 
 bool ModelPart::visible() {
     /* This is a placeholder function that will be used in the next worksheet */

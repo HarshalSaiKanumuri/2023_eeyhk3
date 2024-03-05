@@ -128,6 +128,9 @@ C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPartList.c
 C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPart.cpp
 C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/optiondialog.h
  mmc:Q_OBJECT
+ mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/QList
+ mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/QString
+ mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/QVariant
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/q20memory.h
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtCore/q20type_traits.h
@@ -278,6 +281,7 @@ C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/optiondialog.h
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtWidgets/qtwidgetsexports.h
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.8.0/msvc2019_64/include/QtWidgets/qwidget.h
+ mdp:C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/TreeModel/ModelPart.h
  mdp:C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/optiondialog.h
 C:/Users/Harsh/2023_eeyhk3/Worksheet6/QT_first_project/mainwindow.h
  mmc:Q_OBJECT

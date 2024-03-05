@@ -67,9 +67,20 @@ void MainWindow::handleButton()
     msgBox.exec();
 }
 
-void MainWindow::handleButton_editter()
-{
-    OptionDialog dialog(this);
+void MainWindow::handleButton_editter() {
+    // Get the index of the selected item
+    QModelIndex index = ui->treeView->currentIndex();
+
+    // Get a pointer to the item from the index
+    ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // In this case, we will retrieve the name string from the internal QVariant data array
+    QString text = selectedPart->data(0).toString();
+
+    // Create the OptionDialog and pass the selectedPart as an argument
+    OptionDialog dialog(selectedPart, this); // Pass the selectedPart and the parent widget (this)
+
+    // Show the dialog
     if (dialog.exec() == QDialog::Accepted) {
         emit statusUpdateMessage(QString("Dialog accepted"), 0);
     }
@@ -107,7 +118,19 @@ void MainWindow::openFile()
 
 void MainWindow::on_actionItemOptions_triggered()
 {
-    OptionDialog dialog(this);
+    // Get the index of the selected item
+    QModelIndex index = ui->treeView->currentIndex();
+
+    // Get a pointer to the item from the index
+    ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // In this case, we will retrieve the name string from the internal QVariant data array
+    QString text = selectedPart->data(0).toString();
+
+    // Create the OptionDialog and pass the selectedPart as an argument
+    OptionDialog dialog(selectedPart, this); // Pass the selectedPart and the parent widget (this)
+
+    // Show the dialog
     if (dialog.exec() == QDialog::Accepted) {
         emit statusUpdateMessage(QString("Dialog accepted"), 0);
     }
