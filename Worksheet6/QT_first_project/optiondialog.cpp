@@ -29,10 +29,12 @@ OptionDialog::OptionDialog(ModelPart* selectedPart, QWidget* parent)
     connect(ui->lineEdit, &QLineEdit::textChanged, this, &OptionDialog::updateName);
 
     // Connect signals from input elements to slots for color and visibility updates
-    connect(ui->spinBox, SIGNAL(valueChanged(int)), this, SLOT(updateColor()));
-    connect(ui->spinBox_2, SIGNAL(valueChanged(int)), this, SLOT(updateColor()));  //  spinBox_2 is for green
-    connect(ui->spinBox_3, SIGNAL(valueChanged(int)), this, SLOT(updateColor())); // Assuming SpinBox_3 is for blue
+    connect(ui->spinBox, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
+    connect(ui->spinBox_2, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
+    connect(ui->spinBox_3, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
     connect(ui->checkBox, SIGNAL(clicked(bool)), this, SLOT(updateVisibility()));
+
+    //connect(ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton_editter);
 
     connect(ui->spinBox, SIGNAL(valueChanged(int)), this, SLOT(updateRedValue(int)));
 
