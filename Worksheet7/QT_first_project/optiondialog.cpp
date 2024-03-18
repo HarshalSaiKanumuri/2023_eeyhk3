@@ -32,7 +32,7 @@ OptionDialog::OptionDialog(ModelPart* selectedPart, QWidget* parent)
     connect(ui->spinBox, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
     connect(ui->spinBox_2, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
     connect(ui->spinBox_3, QOverload<int>::of(&QSpinBox::valueChanged), this, &OptionDialog::updateColor);
-    connect(ui->checkBox, SIGNAL(clicked(bool)), this, SLOT(updateVisibility()));
+    connect(ui->checkBox, &QCheckBox::clicked, this, &OptionDialog::updateVisibility);
 
     //connect(ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton_editter);
 
