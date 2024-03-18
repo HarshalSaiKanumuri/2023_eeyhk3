@@ -146,7 +146,7 @@ bool ModelPart::visible() {
     /* This is a placeholder function that will be used in the next worksheet */
     
     /* As the name suggests ... */
-    return false;
+    return m_visible;
 }
 
 void ModelPart::loadSTL(QString fileName) {
